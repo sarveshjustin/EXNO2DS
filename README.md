@@ -1,4 +1,4 @@
-
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,3 +17,4 @@ sns.jointplot(x="Age",y="Fare",data=dt)
 corr=dt.corr()
 sns.heatmap(corr,annot=True)
 sns.pairplot(dt)
+```
